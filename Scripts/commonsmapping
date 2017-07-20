@@ -1,9 +1,8 @@
 #######################################################################################################
-### Automated object-based classification using RF for catchment pioneer ##############################
+### Automated object-based classification using RF for commons mapping ##############################
 #
 #
 
-#HELLO
 
 
 library(rgdal)
@@ -12,7 +11,7 @@ library(rgeos)
 library(randomForest)
 library(impute) # install zip file from: www.bioconductor.org/packages/release/bioc/html/impute.html
 
-setwd("C:/Users/Bertie/Documents/LivingMaps")
+setwd("C:/Users/Bertie/Documents/RPA_Commons_Mapping/CommonsMapping")
 
 source("Living-Maps.git/trunk/zonal_stats.r")
 source("Living-Maps.git/trunk/user_producer_accuracy.r")
